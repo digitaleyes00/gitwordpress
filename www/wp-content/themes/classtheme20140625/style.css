@@ -113,6 +113,19 @@ h4 {
 	text-shadow: 4px 4px 4px #aaa;
 }
 
+.price {
+	font-size: 2em;
+	color: #777;
+}
+
+.product {
+	padding: 50px;
+}
+
+.product>a>img {
+	margin: auto;
+}
+
 .dropdown {
 	margin-top: -5px;
 }
@@ -141,7 +154,11 @@ h4 {
 	}
 	
 	#content {
-		width: 75%;
+		width: 100%;
 		display: block;
+	}
+	
+	#main-title {
+		line-height: 1em;
 	}
 }
