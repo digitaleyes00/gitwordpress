@@ -1,8 +1,9 @@
+<?php get_header(); ?>
 <?php
 /*
  Template Name: Page Template
 */
-GitWordPressLayout::$Viewbag['sTitle'] = "Rich's blog";
+GitWordPressLayout::$Viewbag['sTitle'] = "Janine's Place";
 GitWordPressLayout::layout("_layout.php");
 ?>
 <div id="main">

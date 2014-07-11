@@ -2,31 +2,95 @@
 
 body {
 	text-align: center;
-	background: #cacaca;
+	
+	font-family: "Sanchez", serif;
+	/*background: url('images/wood.jpg');*/
+}
+
+h1, h2, h3 {
+	font-family: 'Arvo', serif;
+}
+
+h4 {
+	font-family: 'Sanchez', serif;
+	font-weight: bold;
+}
+
+.collapse.navbar-collapse.navbar-top-collapse.center {
+    font-size: 1.2em;
+}
+
+.navbar-collapse {
+	list-style-type: none;
+}
+
+.navbar-brand {
+    font-family: 'Arvo', serif;
+    font-size: 2.5em;
+    padding-right: 30px;
+}
+
+#sidebar > div > h2 {
+	margin-top: 0;
+}
+
+#about-me {
+    padding: 0 25px;
+    margin-top: -10px;
+}
+
+.avatar {
+	margin-top: 12px;
+}
+
+#janine {
+	background-color: #e6e6e6;
+	padding: 15px 5px;
 }
 
 #wrapper {
 	display: block;
-	border: 1px #a2a2a2 solid;
+	/*border: 1px #a2a2a2 solid;*/
 	width: 90%;
 	margin: 0px auto;
+	background: #fff;
 }
 
 #header {
-	border: 2px #a2a2a2 solid;
+	/*border: 2px #a2a2a2 solid;*/
 }
 
 #content {
 	width: 75%;
-	border: 2px #a2a2a2 solid;
+	/*border: 2px #a2a2a2 solid;*/
 	float: left;
-	background: url('../images/Jellyfish.jpg');
+	/*background: url('images/Jellyfish.jpg');*/
+	padding: 0px 5% 50px 5%;
 }
+
+.service {
+	text-align: left;
+}
+
+.cost {
+	font-weight: bold;
+	color: #777;
+}
+
+
+#banner {
+	/*background: url('images/banner.jpg');*/
+	height: auto;
+	max-width: 851px;
+	margin: 0 auto;
+}
+
 
 #sidebar {
 	width: 23%;
-	border: 2px #a2a2a2 solid;
+/*	border: 2px #a2a2a2 solid;*/
 	float: right;
+	background-color: #f8f8f8;
 }
 
 #delimiter {
@@ -34,7 +98,7 @@ body {
 }
 
 #footer {
-	border: 2px #a2a2a2 solid;
+/*	border: 2px #a2a2a2 solid;*/
 }
 
 .title {
@@ -47,4 +111,37 @@ body {
 	font-family: 'Tangerine', serif;
 	font-size: 48px;
 	text-shadow: 4px 4px 4px #aaa;
+}
+
+.dropdown {
+	margin-top: -5px;
+}
+
+.center.navbar .nav,
+.center.navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+
+.center .navbar-inner {
+    text-align:center;
+}
+
+.center .dropdown-menu {
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+	#sidebar {
+		width: 100%;
+		display: block;
+	}
+	
+	#content {
+		width: 75%;
+		display: block;
+	}
 }
