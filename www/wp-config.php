@@ -16,7 +16,7 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-$sDBName = isset($_ENV['OPENSHIFT_APP_NAME']) ? $_ENV['OPENSHIFT_APP_NAME'] : 'janine';
+$sDBName = isset($_ENV['OPENSHIFT_APP_NAME']) ? $_ENV['OPENSHIFT_APP_NAME'] : 'janinesplace';
 define('DB_NAME', $sDBName);
 
 /** MySQL database username */
